@@ -13,7 +13,7 @@
 | [openssl](https://github.com/openssl/openssl) | 500k |  |  |  |  | openssl-3.4 | |
 | [json-parser](https://github.com/Barenboim/json-parser) | 1.7k | |  |  |   | f4f3246110eae35e3ffad5bafc371465b17eb437 ||
 
-> 注：规模为项目代码行数，覆盖率表示代码覆盖率，接口数格式为可测试接口数/总接口数，累计测试时长=测试时长*可测试接口数。
+> 注：规模为项目代码行数，统计方法为调用cloc命令统计出所有的C/C++源代码（包括头文件）并相加。覆盖率表示代码覆盖率，接口数格式为可测试接口数/总接口数，累计测试时长=测试时长*可测试接口数。
 
 ### 测试配置
 | 项目 | 编译命令 | 版本(分支、commit、tag) |
