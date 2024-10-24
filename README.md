@@ -20,4 +20,9 @@
 | [workflow](https://github.com/sogou/workflow) | apt install -y libssl-dev libsnappy-dev<br>mkdir build && cd build<br>cmake -DCMAKE_C_COMPILER=$CC -DCMAKE_CXX_COMPILER=$CXX ..<br>make -j | efdba8a0e39700242afd40541af0d0ae2b9ee243 |
 | [openssl](https://github.com/openssl/openssl) | CC="$CC" ./config && make -j | openssl-3.4 |
 | [json-parser](https://github.com/Barenboim/json-parser) | make CC=$CC LD=$CC | f4f3246110eae35e3ffad5bafc371465b17eb437 |
+
+> 注：$CC、$CXX为云起无垠智能模糊测试平台提供的编译器工具。
+
 ### 漏洞列表
+| 编号 | 项目 | 描述 | 类型 | 等级 | 版本(分支、commit、tag) | 更新时间 |
+|---------|------|---------|------------|---------|---------|---------|
