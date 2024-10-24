@@ -6,12 +6,14 @@
 
 ### 测试结果
 
-| 项目 | 规模 | 覆盖率 | 漏洞 | 接口平均测试时长 | 版本(分支、commit、tag) | 更新时间 | 
-|---------|------|---------|------------|---------|---------|---------|
-| [yaml-cpp](yaml-cpp) | 7k | 81.30% |  | 15m| da82fd982c260e7f335ce5acbceff24b270544d1| 2024-10-24 |
-| [workflow](https://github.com/sogou/workflow) | 37k | 38.05% |  | 15m | efdba8a0e39700242afd40541af0d0ae2b9ee243 | 2024-10-24 |
-| [openssl](https://github.com/openssl/openssl) | 500k |  |  |  | openssl-3.4 | |
-| [json-parser](https://github.com/Barenboim/json-parser) | 1.7k |  |  |  | f4f3246110eae35e3ffad5bafc371465b17eb437 ||
+| 项目 | 规模 | 覆盖率 | 漏洞 | 平均测试时长 | 可测接口数 | 版本(分支、commit、tag) | 更新时间 | 
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| [yaml-cpp](yaml-cpp) | 7k | 81.30% |  | 15m | 219 | da82fd982c260e7f335ce5acbceff24b270544d1| 2024-10-24 |
+| [workflow](https://github.com/sogou/workflow) | 37k | 38.05% |  | 15m | 264 | efdba8a0e39700242afd40541af0d0ae2b9ee243 | 2024-10-24 |
+| [openssl](https://github.com/openssl/openssl) | 500k |  |  | |  |  | openssl-3.4 | |
+| [json-parser](https://github.com/Barenboim/json-parser) | 1.7k | |  |  |  |  | f4f3246110eae35e3ffad5bafc371465b17eb437 ||
+
+> 注：规模为项目代码行数，覆盖率表示代码覆盖率，累计测试时长为平均测试时间*可测试接口数。
 
 ### 测试配置
 | 项目 | 编译命令 | 版本(分支、commit、tag) |
