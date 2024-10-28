@@ -1,0 +1,15 @@
+[submodule "projects/yaml-cpp"]
+	path = projects/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "projects/workflow"]
+	path = projects/workflow
+	url = https://github.com/sogou/workflow.git
+[submodule "projects/openssl"]
+	path = projects/openssl
+	url = https://github.com/openssl/openssl.git
+[submodule "projects/json-parser"]
+	path = projects/json-parser
+	url = https://github.com/Barenboim/json-parser.git
+[submodule "projects/facil.io"]
+	path = projects/facil.io
+	url = https://github.com/boazsegev/facil.io.git
